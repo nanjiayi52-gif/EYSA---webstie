@@ -3,99 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EYSA | East Asian Studies Youth Association</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #26332d;
-      background: #f7f6f1;
-      line-height: 1.6;
-    }
-    header {
-      padding: 24px 8%;
-      background: #173d32;
-      color: white;
-    }
-    header strong { font-size: 1.2rem; }
-    nav { margin-top: 12px; }
-    nav a {
-      color: white;
-      margin-right: 20px;
-      text-decoration: none;
-    }
-    main { max-width: 900px; margin: auto; padding: 60px 8%; }
-    .hero {
-      padding: 56px;
-      background: #e5eee6;
-      border-radius: 16px;
-    }
-    .hero h1 { font-size: 2.6rem; line-height: 1.15; }
-    .button {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 12px 20px;
-      background: #bd5b3c;
-      color: white;
-      border-radius: 6px;
-      text-decoration: none;
-    }
-    section { margin-top: 56px; }
-    .card {
-      padding: 24px;
-      background: white;
-      border-radius: 12px;
-      margin: 16px 0;
-    }
-    footer {
-      padding: 28px 8%;
-      background: #173d32;
-      color: white;
-      text-align: center;
-    }
-  </style>
+  <meta name="description" content="EYSA is a youth-led East Asian studies community exploring the region through research and writing.">
+  <title>EYSA — East Asian Studies Youth Association</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <strong>EYSA</strong>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#join">Join Us</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">E</span>
+      <span>EYSA<small>East Asian Studies Youth Association</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="submit.html">Submissions</a>
     </nav>
   </header>
 
   <main>
-    <div class="hero">
-      <p>East Asian Studies Youth Association</p>
-      <h1>Explore East Asia.<br>Learn together.</h1>
-      <p>A youth-led club exploring the histories, cultures, societies, and ideas of East Asia through collaborative research and writing.</p>
-      <a class="button" href="#research">Explore our research</a>
-    </div>
-
-    <section id="about">
-      <h2>About EYSA</h2>
-      <p>EYSA brings young people together to learn about East Asia. Every three months, our members explore a new topic, conduct research, and publish a report.</p>
-    </section>
-
-    <section id="research">
-      <h2>Our Research</h2>
-      <div class="card">
-        <h3>Quarterly Research Series</h3>
-        <p>Each quarter, we investigate a topic in East Asian studies and share what we learn through an accessible research report.</p>
-        <p>Our first report is coming soon.</p>
+    <section class="hero">
+      <p class="eyebrow">A youth-led research community</p>
+      <h1>Curiosity about East Asia,<br><em>shared through research.</em></h1>
+      <p class="hero-copy">
+        We bring young people together to explore East Asian studies, one topic at a time.
+        Every three months, we research a new question and publish what we learn.
+      </p>
+      <div class="actions">
+        <a class="button button-dark" href="research.html">Explore our research <span>↗</span></a>
+        <a class="text-link" href="submit.html">Submit an article <span>→</span></a>
+      </div>
+      <div class="hero-note">
+        <span class="note-dot"></span>
+        Independent thinking · Cross-cultural learning · Youth voices
       </div>
     </section>
 
-    <section id="join">
-      <h2>Join EYSA</h2>
-      <p>Interested in East Asian studies, research, or writing? We’d love to hear from you.</p>
-      <p>Add your club email or membership form link here before publishing.</p>
+    <section class="intro-grid section-pad" id="about">
+      <div>
+        <p class="eyebrow">About EYSA</p>
+        <h2>Study deeply.<br>Learn across cultures.</h2>
+      </div>
+      <p class="body-large">
+        The East Asian Studies Youth Association is a student-led club creating space
+        for young people to ask thoughtful questions about East Asia. Through collaborative
+        research and writing, we make complex topics approachable and invite more voices
+        into the conversation.
+      </p>
+    </section>
+
+    <section class="founder section-pad">
+      <div class="founder-label">
+        <span class="eyebrow">A note from our founder</span>
+        <span class="founder-initials">LN</span>
+      </div>
+      <div>
+        <h2>Meet Lia Nan</h2>
+        <p class="founder-quote">“I’m Lia Nan, founder of EYSA. I was born in Japan, come from a Korean-Chinese background, and attend an IB international school. I started EYSA to bring young people together to explore East Asian studies through research and writing.”</p>
+        <p class="founder-role">President &amp; Founder, EYSA</p>
+      </div>
+    </section>
+
+    <section class="research-callout section-pad">
+      <div>
+        <p class="eyebrow">Our research series</p>
+        <h2>One new topic<br>every three months.</h2>
+        <p class="muted">
+          We investigate a question together, then share our findings in a report.
+          Browse our published work and follow the series as it grows.
+        </p>
+        <a class="button button-light" href="research.html">View research reports <span>↗</span></a>
+      </div>
+      <div class="issue-card">
+        <span class="issue-kicker">QUARTERLY SERIES</span>
+        <span class="issue-number">01</span>
+        <span class="issue-caption">Our first report<br>is in progress</span>
+        <span class="issue-line"></span>
+      </div>
+    </section>
+
+    <section class="join-row section-pad">
+      <div>
+        <p class="eyebrow">Contribute to the conversation</p>
+        <h2>Have an idea to share?</h2>
+        <p class="muted">We welcome thoughtful articles related to East Asian studies from young writers.</p>
+      </div>
+      <a class="button button-dark" href="submit.html">Submission guidelines <span>→</span></a>
     </section>
   </main>
 
   <footer>
-    <p>© EYSA — East Asian Studies Youth Association</p>
+    <a class="brand brand-footer" href="index.html">
+      <span class="brand-mark">E</span>
+      <span>EYSA<small>East Asian Studies Youth Association</small></span>
+    </a>
+    <span>Research, dialogue, and youth perspectives.</span>
+    <span>© EYSA</span>
   </footer>
 </body>
 </html>
